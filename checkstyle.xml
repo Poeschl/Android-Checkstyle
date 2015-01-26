@@ -33,23 +33,6 @@
     <module name="UnusedImports">
       <property name="severity" value="info"/>
     </module>
-    <module name="AnonInnerLength">
-      <property name="severity" value="warning"/>
-      <property name="max" value="50"/>
-    </module>
-    <module name="LineLength">
-      <property name="severity" value="warning"/>
-      <property name="max" value="140"/>
-      <property name="tabWidth" value="4"/>
-    </module>
-    <module name="MethodLength">
-      <property name="severity" value="warning"/>
-      <property name="max" value="200"/>
-    </module>
-    <module name="ParameterNumber">
-      <property name="severity" value="warning"/>
-      <property name="max" value="5"/>
-    </module>
     <module name="GenericWhitespace"/>
     <module name="EmptyForInitializerPad"/>
     <module name="EmptyForIteratorPad"/>
@@ -129,7 +112,6 @@
     <module name="JavadocTagContinuationIndentation"/>
     <module name="JavadocParagraph"/>
     <module name="EqualsAvoidNull"/>
-    <module name="MagicNumber"/>
     <module name="NestedForDepth">
       <property name="max" value="2"/>
     </module>
