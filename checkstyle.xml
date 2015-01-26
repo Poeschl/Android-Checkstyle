@@ -145,6 +145,6 @@
     <property name="severity" value="warning"/>
   </module>
   <module name="SuppressionFilter">
-    <property name="file" value="https://bitbucket.org/Poeschl/android-checkstyle/src/master/suppressions.xml"/>
+    <property name="file" value="https://bitbucket.org/Poeschl/android-checkstyle/raw/master/suppressions.xml"/>
   </module>
 </module>
