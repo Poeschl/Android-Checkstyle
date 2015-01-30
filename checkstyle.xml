@@ -101,14 +101,6 @@
       <property name="closingParens" value="ignore"/>
     </module>
     <module name="MissingDeprecated"/>
-    <module name="AnnotationLocation">
-      <property name="tokens" value="CLASS_DEF,INTERFACE_DEF,ENUM_DEF,METHOD_DEF"/>
-      <property name="allowSamelineSingleParameterlessAnnotation" value="false"/>
-    </module>
-    <module name="AnnotationLocation">
-      <property name="tokens" value="CTOR_DEF,VARIABLE_DEF"/>
-      <property name="allowSamelineMultipleAnnotations" value="true"/>
-    </module>
     <module name="NonEmptyAtclauseDescription"/>
     <module name="JavadocTagContinuationIndentation"/>
     <module name="JavadocParagraph"/>
@@ -128,6 +120,6 @@
     <property name="severity" value="warning"/>
   </module>
   <module name="SuppressionFilter">
-    <property name="file" value="suppressions.xml"/>
+    <property name="file" value="checkstyle/suppressions.xml"/>
   </module>
 </module>
