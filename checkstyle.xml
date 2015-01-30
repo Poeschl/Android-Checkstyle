@@ -5,7 +5,7 @@
     This configuration file was written by the eclipse-cs plugin configuration editor
 -->
 <!--
-    Checkstyle-Configuration: asdf
+    Checkstyle-Configuration: Android Checkstyle
     Description: none
 -->
 <module name="Checker">
@@ -94,6 +94,7 @@
     <module name="VisibilityModifier">
       <property name="severity" value="info"/>
       <property name="packageAllowed" value="true"/>
+      <property name="protectedAllowed" value="true"/>
     </module>
     <module name="ArrayTypeStyle"/>
     <module name="AnnotationUseStyle">
@@ -127,6 +128,6 @@
     <property name="severity" value="warning"/>
   </module>
   <module name="SuppressionFilter">
-    <property name="file" value="https://bitbucket.org/Poeschl/android-checkstyle/raw/master/suppressions.xml"/>
+    <property name="file" value="suppressions.xml"/>
   </module>
 </module>
